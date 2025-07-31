@@ -54,15 +54,11 @@ A static linear elasticity problem on the trapezoidal panel (Cook's membrane) do
 The vertical left edge is fixed. The bottom and the right vertical edges are traction free.
 Traction is applied on the top horizontal.
 
-![project1 figure1](./project1/figure_problem.png)
-
 ### project2
 
 A dynamic elastoplastic problem on the trapezoidal panel (Cook's membrane) domain
 The vertical left edge is fixed. All other edges are traction free.
 An initial velocity v0 in the vertical direction is applied to the right edge of the domain.
-
-![project2 figure1](./project2/figure_problem.png)
 
 ### project3
 
@@ -71,8 +67,6 @@ There is no vertical displacement on the bottom and no horizontal displacement o
 All other edges are traction free.
 Plane strain condition is considered.
 An initial velocity v0 in the left direction is applied to the entire domain at time t == 0.
-
-![project3 figure1](./project3/figure_problem.png)
 
 ## Introduction to femsolve package
 
