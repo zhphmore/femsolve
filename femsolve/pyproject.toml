@@ -1,0 +1,9 @@
+# femsolve
+# pyproject.toml
+[build-system]
+requires = ["setuptools>=61"]   # 打包工具
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "femsolve"
+version = "0.1.0"
