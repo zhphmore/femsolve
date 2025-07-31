@@ -1,0 +1,34 @@
+{
+  "geometry": {
+    "H": 32e-3,
+    "V": 1.6e-3
+  },
+  "mesh": {
+    "flag_elem_type": 1,
+    "num_elem_horizon": 40,
+    "num_elem_vertical": 10
+  },
+  "boundaries": {
+    "x0": 0.0,
+    "y0": 0.0,
+    "v0": -200.0
+  },
+  "properties": {
+    "density": 8950,
+    "E": 100e9,
+    "nu": 0.3,
+    "sig_0": 400e6,
+    "E_h": 10,
+    "power_a": 0.25
+  },
+  "solver": {
+    "alpha_mass": 0,
+    "time_step_safe_factor": 0.2,
+    "gamma": 0.5,
+    "total_steps": 1000
+  },
+  "plotter": {
+    "drawing_amplify": 1,
+    "plot_interval_step": 1
+  }
+}
