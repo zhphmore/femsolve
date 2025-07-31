@@ -1,0 +1,31 @@
+{
+  "geometry": {
+    "H": 2,
+    "V_left": 1,
+    "V_right": 0.5
+  },
+  "mesh": {
+    "flag_elem_type": 1,
+    "num_elem_horizon": 10,
+    "num_elem_vertical": 10
+  },
+  "boundaries": {
+    "x0": 0.0,
+    "yt": 1,
+    "Ft": -2e4
+  },
+  "properties": {
+    "density": 8950,
+    "E": 30e6,
+    "nu": 0.3,
+    "sig_0": 400e6,
+    "E_h": 10,
+    "power_a": 0.25
+  },
+  "solver": {
+    "E": 30e6
+  },
+  "plotter": {
+    "drawing_amplify": 10
+  }
+}
