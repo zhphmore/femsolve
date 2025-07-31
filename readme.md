@@ -1,4 +1,4 @@
-# Finite Element Method Solver
+# Non-linear Finite Element Method Solver
 
 This is a python code for 2-spatial dimension problems using the non-linear Finite Element Method
 
