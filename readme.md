@@ -118,4 +118,4 @@ Please read /readme_femsolve.md carefully.
 
 ## License
 
-This code is provided as-is for educational and research purposes.
+This code is provided for educational and research purposes.
