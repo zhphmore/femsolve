@@ -6,7 +6,7 @@ from matplotlib.animation import FuncAnimation
 
 def animate_displacement(x_a, elem, u, drawing_amplify, plot_interval_step, path_save):
     """
-    Plot dynamic results including deformed shape and pressure distribution
+    Animate displacement
 
     Parameters:
     x_a (ndarray): Initial nodal coordinates, shape: (num_nodes, dim_space)
