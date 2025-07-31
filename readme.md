@@ -33,10 +33,6 @@ This implementation solves 2-spatial dimension problems using the non-linear Fin
     └── ...
 ```
 
-## Introduction to femsolve package
-
-Please read /readme_femsolve.md carefully.
-
 ## Installation
 
 **Clone or download the repository**
@@ -71,6 +67,56 @@ There is no vertical displacement on the bottom and no horizontal displacement o
 All other edges are traction free.
 Plane strain condition is considered.
 An initial velocity v0 in the left direction is applied to the entire domain at time t == 0.
+
+## Introduction to femsolve package
+
+Please read /readme_femsolve.md carefully.
+
+### File Structure
+
+```
+├── __init__.py
+├── read_json.py                   # Read settings from json file
+├── femstatic2d                    # Finite Element Method static problem
+    ├── __init__.py
+    ├── FEMStatic2D.py             # For static problem
+    ├── g_center.py                # Calculate the barycenter and surface area of each element
+    ├── shape_function.py          # Calculate linear and bilinear shape functions and their derivatives
+    ├── B_matrix.py                # Calculate the B matrix
+    ├── K_matrix_2D.py             # Global stiffness matrix assembly
+    ├── constitutive_2D.py         # Compute strain, stress and pressure from displacement
+    ├── plot_mesh.py               # Plot mesh
+    └── plot_displacement.py       # Plot displacement
+├── femdynamic2d                   # # Finite Element Method dynamic problem
+    ├── __init__.py
+    ├── FEMDynamic2D.py            # For dynamic problem
+    ├── g_center.py                # Calculate the barycenter and surface area of each element
+    ├── shape_function.py          # Calculate linear and bilinear shape functions and their derivatives
+    ├── mass_matrix.py             # Calculate mass matrix
+    ├── critical_time_step.py      # Calculate the critical time step
+    ├── explicit_solver.py         # The Newmark Explicit Dynamics Analysis
+    ├── force_internal.py          # Assemble the nodal internal force
+    ├── constitutive.py            # Compute the stress tensor
+    ├── plot_mesh.py               # Plot mesh
+    └── plot_displacement.py       # Plot displacement at certain time
+├── pyproject.toml                 # Package installation
+├── requirements.txt               # Python dependencies
+└── readme_femsolve.md             # This file  
+```
+
+### Installation
+
+1. **Clone or download the repository**
+
+2. **Install Python dependencies**:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+   Or install manually:
+   ```bash
+   pip install numpy pandas matplotlib tqdm
+   ```
 
 ## License
 
