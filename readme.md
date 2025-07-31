@@ -13,7 +13,7 @@ This implementation solves 2-spatial dimension problems using the non-linear Fin
 - Plane stress constitutive relations
 - Explicit dynamic method
 
-## Package file Structure
+## File Structure
 
 ```
 ├── femsolve                            # Central python package for Finite Element Method
@@ -32,10 +32,6 @@ This implementation solves 2-spatial dimension problems using the non-linear Fin
 ├── project3
     └── ...
 ```
-
-## Installation
-
-**Clone or download the repository**
 
 ## How to run demonstration
 
@@ -72,7 +68,7 @@ An initial velocity v0 in the left direction is applied to the entire domain at 
 
 Please read /readme_femsolve.md carefully.
 
-### File Structure
+### Package file Structure
 
 ```
 ├── __init__.py
@@ -104,7 +100,7 @@ Please read /readme_femsolve.md carefully.
 └── readme_femsolve.md             # This file  
 ```
 
-### Installation
+### Package installation
 
 1. **Clone or download the repository**
 
