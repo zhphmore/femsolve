@@ -19,7 +19,7 @@ This implementation solves 2-spatial dimension problems using the non-linear Fin
 ├── femsolve                            # Central python package for Finite Element Method
     └── ...
 ├── project1                            # Demonstration for femsolve
-    ├── midterm_exam_2024.pdf           # Introdution to this project
+    ├── ... .pdf                        # Introdution to this project
     ├── main.py                         # Run to get data
     ├── generate_mesh.py                # Generate mesh for finite element analysis
     ├── boundary_conditions.py          # Set up the boundary conditions and initial conditions
@@ -28,6 +28,8 @@ This implementation solves 2-spatial dimension problems using the non-linear Fin
         ├── x_a.csv                     # Run main.py to get data
         └── ...
 ├── project2
+    ├── ...
+    ├── animate_displacement.py         # Animate displacement
     └── ...
 ├── project3
     └── ...
