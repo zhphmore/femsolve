@@ -1,6 +1,7 @@
 # Finite Element Method Solver
 
 This is a python code for 2-spatial dimension problems using the non-linear Finite Element Method
+
 The python code was developed by P.H. Zhang (2025) and B. Li (2010).
 
 ## Overview
