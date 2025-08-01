@@ -28,7 +28,7 @@ This implementation solves 2-spatial dimension problems using the non-linear Fin
     ├── constitutive_2D.py         # Compute strain, stress and pressure from displacement
     ├── plot_mesh.py               # Plot mesh
     └── plot_displacement.py       # Plot displacement
-├── femdynamic2d                   # # Finite Element Method dynamic problem
+├── femdynamic2d                   # Finite Element Method dynamic problem
     ├── __init__.py
     ├── FEMDynamic2D.py            # For dynamic problem
     ├── g_center.py                # Calculate the barycenter and surface area of each element
